@@ -4,7 +4,7 @@ Site de suggestions de jeux vidéo : on saisit les jeux déjà joués (avec un a
 
 ## Lancer
 
-Site statique, sans dépendance : ouvrir `index.html` dans un navigateur (ou `python3 -m http.server`).
+Site statique, sans dépendance. Le catalogue est chargé depuis `data/jeux.json`, il faut donc un petit serveur local : `python3 -m http.server`, puis ouvrir http://localhost:8000.
 
 ## Tests
 
@@ -12,6 +12,6 @@ Site statique, sans dépendance : ouvrir `index.html` dans un navigateur (ou `py
 
 ## Structure
 
-- `src/games.js` : catalogue de démonstration (en dur).
-- `src/recommend.js` : calcul de ressemblance et classement.
+- `data/jeux.json` : catalogue de 168 jeux (genres, mécaniques, tags, studio, éditeur, série, plateformes, note critique, année) et liste `genres_voisins`. Liste écrite à la main, pas d'import IGDB ni Steam ; les notes critiques sont approximatives. Voir `meta` dans le fichier.
+- `src/recommend.js` : calcul de ressemblance et classement (`creerMoteur(donnees)`).
 - `src/app.js`, `src/style.css`, `index.html` : interface.

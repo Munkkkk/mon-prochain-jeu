@@ -1,0 +1,4818 @@
+{
+ "meta": {
+  "version": 1,
+  "langue": "fr",
+  "source": "Liste écrite à la main à partir de connaissances générales (pas d'import IGDB). Les notes critiques (0-100) sont des ordres de grandeur proches de Metacritic/OpenCritic, à vérifier ou remplacer par l'API IGDB.",
+  "champs": {
+   "id": "identifiant unique (slug)",
+   "titre": "titre affiché",
+   "genres": "genres (voir genres_voisins)",
+   "mecaniques": "mécaniques de jeu",
+   "tags": "ambiance, thèmes, public",
+   "studio": "développeur",
+   "editeur": "éditeur",
+   "serie": "série / franchise (limite de 3 par série dans les suggestions)",
+   "plateformes": "PC, PS4, PS5, Xbox, Switch",
+   "note": "note critique 0-100",
+   "annee": "année de première sortie"
+  }
+ },
+ "genres_voisins": [
+  [
+   "FPS",
+   "Battle royale"
+  ],
+  [
+   "FPS",
+   "Tactique"
+  ],
+  [
+   "RPG",
+   "Action-aventure"
+  ],
+  [
+   "RPG",
+   "Monde ouvert"
+  ],
+  [
+   "Action-aventure",
+   "Monde ouvert"
+  ],
+  [
+   "Action-aventure",
+   "Metroidvania"
+  ],
+  [
+   "Metroidvania",
+   "Plateforme"
+  ],
+  [
+   "Roguelike",
+   "Action"
+  ],
+  [
+   "Roguelike",
+   "Metroidvania"
+  ],
+  [
+   "Stratégie",
+   "Tactique"
+  ],
+  [
+   "Course",
+   "Sport"
+  ],
+  [
+   "Bac à sable",
+   "Survie"
+  ],
+  [
+   "Simulation",
+   "Bac à sable"
+  ],
+  [
+   "Action",
+   "Action-aventure"
+  ],
+  [
+   "Aventure",
+   "Action-aventure"
+  ],
+  [
+   "Horreur",
+   "Survie"
+  ],
+  [
+   "Horreur",
+   "Action-aventure"
+  ],
+  [
+   "Horreur",
+   "FPS"
+  ],
+  [
+   "Survie",
+   "Aventure"
+  ],
+  [
+   "Simulation",
+   "Gestion"
+  ],
+  [
+   "Stratégie",
+   "Gestion"
+  ],
+  [
+   "Plateforme",
+   "Puzzle"
+  ],
+  [
+   "Aventure",
+   "Visual novel"
+  ],
+  [
+   "Combat",
+   "Action"
+  ],
+  [
+   "RPG",
+   "MMO"
+  ],
+  [
+   "Action",
+   "Infiltration"
+  ],
+  [
+   "Action-aventure",
+   "Infiltration"
+  ],
+  [
+   "Battle royale",
+   "Survie"
+  ],
+  [
+   "Stratégie",
+   "MOBA"
+  ],
+  [
+   "Course",
+   "Simulation"
+  ],
+  [
+   "Party game",
+   "Plateforme"
+  ],
+  [
+   "Rythme",
+   "Action"
+  ],
+  [
+   "Roguelike",
+   "Stratégie"
+  ],
+  [
+   "Tactique",
+   "RPG"
+  ],
+  [
+   "Sport",
+   "Simulation"
+  ],
+  [
+   "Bac à sable",
+   "Gestion"
+  ],
+  [
+   "FPS",
+   "MMO"
+  ]
+ ],
+ "jeux": [
+  {
+   "id": "doom-eternal",
+   "titre": "DOOM Eternal",
+   "genres": [
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "mouvement rapide",
+    "gestion de ressources"
+   ],
+   "tags": [
+    "démons",
+    "gore",
+    "science-fiction"
+   ],
+   "studio": "id Software",
+   "editeur": "Bethesda",
+   "serie": "DOOM",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 88,
+   "annee": 2020
+  },
+  {
+   "id": "halo-infinite",
+   "titre": "Halo Infinite",
+   "genres": [
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "véhicules",
+    "multijoueur"
+   ],
+   "tags": [
+    "science-fiction",
+    "extraterrestres"
+   ],
+   "studio": "343 Industries",
+   "editeur": "Xbox Game Studios",
+   "serie": "Halo",
+   "plateformes": [
+    "PC",
+    "Xbox"
+   ],
+   "note": 87,
+   "annee": 2021
+  },
+  {
+   "id": "titanfall-2",
+   "titre": "Titanfall 2",
+   "genres": [
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "mouvement rapide",
+    "mechas",
+    "multijoueur"
+   ],
+   "tags": [
+    "science-fiction",
+    "campagne solo"
+   ],
+   "studio": "Respawn",
+   "editeur": "Electronic Arts",
+   "serie": "Titanfall",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 89,
+   "annee": 2016
+  },
+  {
+   "id": "cs2",
+   "titre": "Counter-Strike 2",
+   "genres": [
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "tactique",
+    "multijoueur",
+    "compétitif"
+   ],
+   "tags": [
+    "esport",
+    "réaliste"
+   ],
+   "studio": "Valve",
+   "editeur": "Valve",
+   "serie": "Counter-Strike",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 83,
+   "annee": 2023
+  },
+  {
+   "id": "apex",
+   "titre": "Apex Legends",
+   "genres": [
+    "FPS",
+    "Battle royale"
+   ],
+   "mecaniques": [
+    "tir",
+    "multijoueur",
+    "compétitif",
+    "classes"
+   ],
+   "tags": [
+    "science-fiction",
+    "esport"
+   ],
+   "studio": "Respawn",
+   "editeur": "Electronic Arts",
+   "serie": "Apex",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 88,
+   "annee": 2019
+  },
+  {
+   "id": "bioshock",
+   "titre": "BioShock",
+   "genres": [
+    "FPS",
+    "Aventure"
+   ],
+   "mecaniques": [
+    "tir",
+    "pouvoirs",
+    "exploration"
+   ],
+   "tags": [
+    "dystopie",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "2K Boston",
+   "editeur": "2K Games",
+   "serie": "BioShock",
+   "plateformes": [
+    "PC",
+    "PS3",
+    "Xbox"
+   ],
+   "note": 96,
+   "annee": 2007
+  },
+  {
+   "id": "half-life-2",
+   "titre": "Half-Life 2",
+   "genres": [
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "physique",
+    "puzzles"
+   ],
+   "tags": [
+    "science-fiction",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "Valve",
+   "editeur": "Valve",
+   "serie": "Half-Life",
+   "plateformes": [
+    "PC",
+    "Xbox"
+   ],
+   "note": 96,
+   "annee": 2004
+  },
+  {
+   "id": "zelda-botw",
+   "titre": "The Legend of Zelda: Breath of the Wild",
+   "genres": [
+    "Action-aventure",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "exploration",
+    "combat",
+    "puzzles",
+    "physique"
+   ],
+   "tags": [
+    "fantasy",
+    "campagne solo",
+    "liberté"
+   ],
+   "studio": "Nintendo EPD",
+   "editeur": "Nintendo",
+   "serie": "Zelda",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 97,
+   "annee": 2017
+  },
+  {
+   "id": "elden-ring",
+   "titre": "Elden Ring",
+   "genres": [
+    "RPG",
+    "Action-aventure",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "combat",
+    "exploration",
+    "progression de personnage"
+   ],
+   "tags": [
+    "fantasy",
+    "difficile",
+    "campagne solo"
+   ],
+   "studio": "FromSoftware",
+   "editeur": "Bandai Namco",
+   "serie": "Souls",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 96,
+   "annee": 2022
+  },
+  {
+   "id": "dark-souls",
+   "titre": "Dark Souls",
+   "genres": [
+    "RPG",
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "combat",
+    "exploration",
+    "progression de personnage"
+   ],
+   "tags": [
+    "fantasy",
+    "difficile",
+    "sombre"
+   ],
+   "studio": "FromSoftware",
+   "editeur": "Bandai Namco",
+   "serie": "Souls",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 89,
+   "annee": 2011
+  },
+  {
+   "id": "witcher-3",
+   "titre": "The Witcher 3",
+   "genres": [
+    "RPG",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "combat",
+    "exploration",
+    "choix et conséquences",
+    "progression de personnage"
+   ],
+   "tags": [
+    "fantasy",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "CD Projekt Red",
+   "editeur": "CD Projekt",
+   "serie": "The Witcher",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 93,
+   "annee": 2015
+  },
+  {
+   "id": "skyrim",
+   "titre": "The Elder Scrolls V: Skyrim",
+   "genres": [
+    "RPG",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "combat",
+    "exploration",
+    "progression de personnage"
+   ],
+   "tags": [
+    "fantasy",
+    "campagne solo",
+    "liberté"
+   ],
+   "studio": "Bethesda Game Studios",
+   "editeur": "Bethesda",
+   "serie": "Elder Scrolls",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 94,
+   "annee": 2011
+  },
+  {
+   "id": "cyberpunk",
+   "titre": "Cyberpunk 2077",
+   "genres": [
+    "RPG",
+    "FPS",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "tir",
+    "exploration",
+    "choix et conséquences",
+    "progression de personnage"
+   ],
+   "tags": [
+    "science-fiction",
+    "dystopie",
+    "narration"
+   ],
+   "studio": "CD Projekt Red",
+   "editeur": "CD Projekt",
+   "serie": "Cyberpunk",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 86,
+   "annee": 2020
+  },
+  {
+   "id": "baldurs-gate-3",
+   "titre": "Baldur's Gate 3",
+   "genres": [
+    "RPG"
+   ],
+   "mecaniques": [
+    "tour par tour",
+    "choix et conséquences",
+    "progression de personnage",
+    "coopération"
+   ],
+   "tags": [
+    "fantasy",
+    "narration"
+   ],
+   "studio": "Larian Studios",
+   "editeur": "Larian Studios",
+   "serie": "Baldur's Gate",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 96,
+   "annee": 2023
+  },
+  {
+   "id": "civ6",
+   "titre": "Civilization VI",
+   "genres": [
+    "Stratégie"
+   ],
+   "mecaniques": [
+    "tour par tour",
+    "gestion de ressources",
+    "diplomatie"
+   ],
+   "tags": [
+    "histoire",
+    "4X"
+   ],
+   "studio": "Firaxis",
+   "editeur": "2K Games",
+   "serie": "Civilization",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 88,
+   "annee": 2016
+  },
+  {
+   "id": "xcom-2",
+   "titre": "XCOM 2",
+   "genres": [
+    "Stratégie",
+    "Tactique"
+   ],
+   "mecaniques": [
+    "tour par tour",
+    "tactique",
+    "gestion de ressources"
+   ],
+   "tags": [
+    "science-fiction",
+    "extraterrestres",
+    "difficile"
+   ],
+   "studio": "Firaxis",
+   "editeur": "2K Games",
+   "serie": "XCOM",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 88,
+   "annee": 2016
+  },
+  {
+   "id": "age-of-empires-4",
+   "titre": "Age of Empires IV",
+   "genres": [
+    "Stratégie"
+   ],
+   "mecaniques": [
+    "temps réel",
+    "gestion de ressources",
+    "multijoueur"
+   ],
+   "tags": [
+    "histoire",
+    "médiéval"
+   ],
+   "studio": "Relic",
+   "editeur": "Xbox Game Studios",
+   "serie": "Age of Empires",
+   "plateformes": [
+    "PC",
+    "Xbox"
+   ],
+   "note": 81,
+   "annee": 2021
+  },
+  {
+   "id": "starcraft-2",
+   "titre": "StarCraft II",
+   "genres": [
+    "Stratégie"
+   ],
+   "mecaniques": [
+    "temps réel",
+    "gestion de ressources",
+    "compétitif",
+    "multijoueur"
+   ],
+   "tags": [
+    "science-fiction",
+    "esport",
+    "extraterrestres"
+   ],
+   "studio": "Blizzard",
+   "editeur": "Blizzard",
+   "serie": "StarCraft",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 93,
+   "annee": 2010
+  },
+  {
+   "id": "hades",
+   "titre": "Hades",
+   "genres": [
+    "Roguelike",
+    "Action"
+   ],
+   "mecaniques": [
+    "combat",
+    "progression de personnage",
+    "rejouabilité"
+   ],
+   "tags": [
+    "mythologie",
+    "narration",
+    "indépendant"
+   ],
+   "studio": "Supergiant Games",
+   "editeur": "Supergiant Games",
+   "serie": "Hades",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 93,
+   "annee": 2020
+  },
+  {
+   "id": "dead-cells",
+   "titre": "Dead Cells",
+   "genres": [
+    "Roguelike",
+    "Action",
+    "Metroidvania"
+   ],
+   "mecaniques": [
+    "combat",
+    "exploration",
+    "rejouabilité"
+   ],
+   "tags": [
+    "pixel art",
+    "difficile",
+    "indépendant"
+   ],
+   "studio": "Motion Twin",
+   "editeur": "Motion Twin",
+   "serie": "Dead Cells",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 89,
+   "annee": 2018
+  },
+  {
+   "id": "hollow-knight",
+   "titre": "Hollow Knight",
+   "genres": [
+    "Metroidvania",
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "combat",
+    "exploration",
+    "plateforme"
+   ],
+   "tags": [
+    "sombre",
+    "difficile",
+    "indépendant"
+   ],
+   "studio": "Team Cherry",
+   "editeur": "Team Cherry",
+   "serie": "Hollow Knight",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 90,
+   "annee": 2017
+  },
+  {
+   "id": "celeste",
+   "titre": "Celeste",
+   "genres": [
+    "Plateforme"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "mouvement rapide"
+   ],
+   "tags": [
+    "pixel art",
+    "difficile",
+    "narration",
+    "indépendant"
+   ],
+   "studio": "Maddy Makes Games",
+   "editeur": "Maddy Makes Games",
+   "serie": "Celeste",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 92,
+   "annee": 2018
+  },
+  {
+   "id": "mario-odyssey",
+   "titre": "Super Mario Odyssey",
+   "genres": [
+    "Plateforme",
+    "Aventure"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "exploration",
+    "collection"
+   ],
+   "tags": [
+    "famille",
+    "coloré"
+   ],
+   "studio": "Nintendo EPD",
+   "editeur": "Nintendo",
+   "serie": "Mario",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 97,
+   "annee": 2017
+  },
+  {
+   "id": "fifa-24",
+   "titre": "EA Sports FC 24",
+   "genres": [
+    "Sport"
+   ],
+   "mecaniques": [
+    "simulation sportive",
+    "multijoueur",
+    "compétitif"
+   ],
+   "tags": [
+    "football",
+    "esport"
+   ],
+   "studio": "EA Vancouver",
+   "editeur": "Electronic Arts",
+   "serie": "FIFA",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 75,
+   "annee": 2023
+  },
+  {
+   "id": "forza-horizon-5",
+   "titre": "Forza Horizon 5",
+   "genres": [
+    "Course",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "conduite",
+    "exploration",
+    "multijoueur",
+    "collection"
+   ],
+   "tags": [
+    "voitures",
+    "coloré"
+   ],
+   "studio": "Playground Games",
+   "editeur": "Xbox Game Studios",
+   "serie": "Forza",
+   "plateformes": [
+    "PC",
+    "Xbox"
+   ],
+   "note": 92,
+   "annee": 2021
+  },
+  {
+   "id": "mario-kart-8",
+   "titre": "Mario Kart 8 Deluxe",
+   "genres": [
+    "Course"
+   ],
+   "mecaniques": [
+    "conduite",
+    "multijoueur",
+    "objets"
+   ],
+   "tags": [
+    "famille",
+    "coloré"
+   ],
+   "studio": "Nintendo EPD",
+   "editeur": "Nintendo",
+   "serie": "Mario",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 92,
+   "annee": 2017
+  },
+  {
+   "id": "minecraft",
+   "titre": "Minecraft",
+   "genres": [
+    "Bac à sable",
+    "Survie"
+   ],
+   "mecaniques": [
+    "construction",
+    "exploration",
+    "artisanat",
+    "coopération"
+   ],
+   "tags": [
+    "créatif",
+    "famille"
+   ],
+   "studio": "Mojang",
+   "editeur": "Xbox Game Studios",
+   "serie": "Minecraft",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 93,
+   "annee": 2011
+  },
+  {
+   "id": "terraria",
+   "titre": "Terraria",
+   "genres": [
+    "Bac à sable",
+    "Survie",
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "construction",
+    "exploration",
+    "artisanat",
+    "combat",
+    "coopération"
+   ],
+   "tags": [
+    "pixel art",
+    "indépendant"
+   ],
+   "studio": "Re-Logic",
+   "editeur": "Re-Logic",
+   "serie": "Terraria",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 83,
+   "annee": 2011
+  },
+  {
+   "id": "stardew-valley",
+   "titre": "Stardew Valley",
+   "genres": [
+    "Simulation",
+    "RPG"
+   ],
+   "mecaniques": [
+    "gestion de ressources",
+    "artisanat",
+    "coopération",
+    "progression de personnage"
+   ],
+   "tags": [
+    "détente",
+    "pixel art",
+    "indépendant"
+   ],
+   "studio": "ConcernedApe",
+   "editeur": "ConcernedApe",
+   "serie": "Stardew Valley",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 89,
+   "annee": 2016
+  },
+  {
+   "id": "rdr2",
+   "titre": "Red Dead Redemption 2",
+   "genres": [
+    "Action-aventure",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "tir",
+    "exploration",
+    "choix et conséquences"
+   ],
+   "tags": [
+    "western",
+    "narration",
+    "réaliste",
+    "campagne solo"
+   ],
+   "studio": "Rockstar Games",
+   "editeur": "Rockstar Games",
+   "serie": "Red Dead",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 97,
+   "annee": 2018
+  },
+  {
+   "id": "gta5",
+   "titre": "Grand Theft Auto V",
+   "genres": [
+    "Action-aventure",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "tir",
+    "conduite",
+    "exploration",
+    "multijoueur"
+   ],
+   "tags": [
+    "criminalité",
+    "humour"
+   ],
+   "studio": "Rockstar Games",
+   "editeur": "Rockstar Games",
+   "serie": "GTA",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 97,
+   "annee": 2013
+  },
+  {
+   "id": "the-last-of-us",
+   "titre": "The Last of Us Part I",
+   "genres": [
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "tir",
+    "infiltration",
+    "artisanat"
+   ],
+   "tags": [
+    "post-apocalyptique",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "Naughty Dog",
+   "editeur": "Sony",
+   "serie": "The Last of Us",
+   "plateformes": [
+    "PC",
+    "PS5"
+   ],
+   "note": 88,
+   "annee": 2022
+  },
+  {
+   "id": "overwatch-2",
+   "titre": "Overwatch 2",
+   "genres": [
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "classes",
+    "multijoueur",
+    "compétitif"
+   ],
+   "tags": [
+    "science-fiction",
+    "esport",
+    "héros"
+   ],
+   "studio": "Blizzard",
+   "editeur": "Blizzard",
+   "serie": "Overwatch",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 79,
+   "annee": 2022
+  },
+  {
+   "id": "valorant",
+   "titre": "Valorant",
+   "genres": [
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "tactique",
+    "classes",
+    "compétitif",
+    "multijoueur"
+   ],
+   "tags": [
+    "esport",
+    "réaliste",
+    "science-fiction"
+   ],
+   "studio": "Riot Games",
+   "editeur": "Riot Games",
+   "serie": "Valorant",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 80,
+   "annee": 2020
+  },
+  {
+   "id": "call-of-duty-mw3",
+   "titre": "Call of Duty: Modern Warfare III",
+   "genres": [
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "multijoueur",
+    "campagne solo"
+   ],
+   "tags": [
+    "guerre",
+    "réaliste",
+    "campagne solo"
+   ],
+   "studio": "Sledgehammer Games",
+   "editeur": "Activision",
+   "serie": "Call of Duty",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 65,
+   "annee": 2023
+  },
+  {
+   "id": "battlefield-1",
+   "titre": "Battlefield 1",
+   "genres": [
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "véhicules",
+    "multijoueur"
+   ],
+   "tags": [
+    "guerre",
+    "histoire"
+   ],
+   "studio": "DICE",
+   "editeur": "Electronic Arts",
+   "serie": "Battlefield",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 88,
+   "annee": 2016
+  },
+  {
+   "id": "far-cry-5",
+   "titre": "Far Cry 5",
+   "genres": [
+    "FPS",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "tir",
+    "exploration",
+    "coopération"
+   ],
+   "tags": [
+    "campagne solo",
+    "liberté"
+   ],
+   "studio": "Ubisoft Montréal",
+   "editeur": "Ubisoft",
+   "serie": "Far Cry",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 78,
+   "annee": 2018
+  },
+  {
+   "id": "metro-exodus",
+   "titre": "Metro Exodus",
+   "genres": [
+    "FPS",
+    "Horreur"
+   ],
+   "mecaniques": [
+    "tir",
+    "infiltration",
+    "artisanat",
+    "exploration"
+   ],
+   "tags": [
+    "post-apocalyptique",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "4A Games",
+   "editeur": "Deep Silver",
+   "serie": "Metro",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 80,
+   "annee": 2019
+  },
+  {
+   "id": "borderlands-3",
+   "titre": "Borderlands 3",
+   "genres": [
+    "FPS",
+    "RPG"
+   ],
+   "mecaniques": [
+    "tir",
+    "butin",
+    "coopération",
+    "progression de personnage"
+   ],
+   "tags": [
+    "humour",
+    "science-fiction",
+    "coloré"
+   ],
+   "studio": "Gearbox Software",
+   "editeur": "2K Games",
+   "serie": "Borderlands",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 83,
+   "annee": 2019
+  },
+  {
+   "id": "deathloop",
+   "titre": "Deathloop",
+   "genres": [
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "pouvoirs",
+    "boucle temporelle",
+    "infiltration"
+   ],
+   "tags": [
+    "science-fiction",
+    "stylé",
+    "campagne solo"
+   ],
+   "studio": "Arkane Lyon",
+   "editeur": "Bethesda",
+   "serie": "Deathloop",
+   "plateformes": [
+    "PC",
+    "PS5"
+   ],
+   "note": 88,
+   "annee": 2021
+  },
+  {
+   "id": "fortnite",
+   "titre": "Fortnite",
+   "genres": [
+    "Battle royale",
+    "Bac à sable"
+   ],
+   "mecaniques": [
+    "tir",
+    "construction",
+    "multijoueur",
+    "compétitif"
+   ],
+   "tags": [
+    "coloré",
+    "gratuit"
+   ],
+   "studio": "Epic Games",
+   "editeur": "Epic Games",
+   "serie": "Fortnite",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 81,
+   "annee": 2017
+  },
+  {
+   "id": "pubg",
+   "titre": "PUBG: Battlegrounds",
+   "genres": [
+    "Battle royale",
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "survie",
+    "multijoueur",
+    "compétitif"
+   ],
+   "tags": [
+    "réaliste",
+    "gratuit"
+   ],
+   "studio": "Krafton",
+   "editeur": "Krafton",
+   "serie": "PUBG",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 86,
+   "annee": 2017
+  },
+  {
+   "id": "final-fantasy-vii-remake",
+   "titre": "Final Fantasy VII Remake",
+   "genres": [
+    "RPG"
+   ],
+   "mecaniques": [
+    "combat",
+    "tour par tour",
+    "progression de personnage"
+   ],
+   "tags": [
+    "fantasy",
+    "science-fiction",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "Square Enix",
+   "editeur": "Square Enix",
+   "serie": "Final Fantasy",
+   "plateformes": [
+    "PC",
+    "PS5"
+   ],
+   "note": 87,
+   "annee": 2020
+  },
+  {
+   "id": "persona-5-royal",
+   "titre": "Persona 5 Royal",
+   "genres": [
+    "RPG"
+   ],
+   "mecaniques": [
+    "tour par tour",
+    "progression de personnage",
+    "gestion du temps"
+   ],
+   "tags": [
+    "narration",
+    "japonais",
+    "stylé",
+    "campagne solo"
+   ],
+   "studio": "Atlus",
+   "editeur": "Atlus",
+   "serie": "Persona",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 95,
+   "annee": 2019
+  },
+  {
+   "id": "mass-effect-legendary",
+   "titre": "Mass Effect Legendary Edition",
+   "genres": [
+    "RPG",
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "choix et conséquences",
+    "progression de personnage",
+    "pouvoirs"
+   ],
+   "tags": [
+    "science-fiction",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "BioWare",
+   "editeur": "Electronic Arts",
+   "serie": "Mass Effect",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 86,
+   "annee": 2021
+  },
+  {
+   "id": "dragon-age-inquisition",
+   "titre": "Dragon Age: Inquisition",
+   "genres": [
+    "RPG"
+   ],
+   "mecaniques": [
+    "combat",
+    "choix et conséquences",
+    "progression de personnage",
+    "exploration"
+   ],
+   "tags": [
+    "fantasy",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "BioWare",
+   "editeur": "Electronic Arts",
+   "serie": "Dragon Age",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 85,
+   "annee": 2014
+  },
+  {
+   "id": "fallout-4",
+   "titre": "Fallout 4",
+   "genres": [
+    "RPG",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "tir",
+    "exploration",
+    "artisanat",
+    "progression de personnage"
+   ],
+   "tags": [
+    "post-apocalyptique",
+    "liberté",
+    "campagne solo"
+   ],
+   "studio": "Bethesda Game Studios",
+   "editeur": "Bethesda",
+   "serie": "Fallout",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 84,
+   "annee": 2015
+  },
+  {
+   "id": "starfield",
+   "titre": "Starfield",
+   "genres": [
+    "RPG",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "tir",
+    "exploration",
+    "artisanat",
+    "progression de personnage"
+   ],
+   "tags": [
+    "science-fiction",
+    "liberté",
+    "campagne solo"
+   ],
+   "studio": "Bethesda Game Studios",
+   "editeur": "Bethesda",
+   "serie": "Starfield",
+   "plateformes": [
+    "PC",
+    "Xbox"
+   ],
+   "note": 83,
+   "annee": 2023
+  },
+  {
+   "id": "disco-elysium",
+   "titre": "Disco Elysium",
+   "genres": [
+    "RPG"
+   ],
+   "mecaniques": [
+    "choix et conséquences",
+    "dialogues",
+    "progression de personnage"
+   ],
+   "tags": [
+    "narration",
+    "enquête",
+    "indépendant",
+    "campagne solo"
+   ],
+   "studio": "ZA/UM",
+   "editeur": "ZA/UM",
+   "serie": "Disco Elysium",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 91,
+   "annee": 2019
+  },
+  {
+   "id": "divinity-original-sin-2",
+   "titre": "Divinity: Original Sin 2",
+   "genres": [
+    "RPG"
+   ],
+   "mecaniques": [
+    "tour par tour",
+    "choix et conséquences",
+    "coopération",
+    "progression de personnage"
+   ],
+   "tags": [
+    "fantasy",
+    "narration"
+   ],
+   "studio": "Larian Studios",
+   "editeur": "Larian Studios",
+   "serie": "Divinity",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 93,
+   "annee": 2017
+  },
+  {
+   "id": "pillars-of-eternity",
+   "titre": "Pillars of Eternity",
+   "genres": [
+    "RPG"
+   ],
+   "mecaniques": [
+    "temps réel",
+    "choix et conséquences",
+    "progression de personnage"
+   ],
+   "tags": [
+    "fantasy",
+    "narration"
+   ],
+   "studio": "Obsidian Entertainment",
+   "editeur": "Paradox Interactive",
+   "serie": "Pillars of Eternity",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 89,
+   "annee": 2015
+  },
+  {
+   "id": "pokemon-ecarlate",
+   "titre": "Pokémon Écarlate",
+   "genres": [
+    "RPG",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "tour par tour",
+    "collection",
+    "exploration",
+    "coopération"
+   ],
+   "tags": [
+    "famille",
+    "coloré"
+   ],
+   "studio": "Game Freak",
+   "editeur": "Nintendo",
+   "serie": "Pokémon",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 72,
+   "annee": 2022
+  },
+  {
+   "id": "monster-hunter-world",
+   "titre": "Monster Hunter: World",
+   "genres": [
+    "RPG",
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "combat",
+    "coopération",
+    "artisanat",
+    "butin"
+   ],
+   "tags": [
+    "fantasy",
+    "difficile",
+    "japonais"
+   ],
+   "studio": "Capcom",
+   "editeur": "Capcom",
+   "serie": "Monster Hunter",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 90,
+   "annee": 2018
+  },
+  {
+   "id": "diablo-4",
+   "titre": "Diablo IV",
+   "genres": [
+    "RPG",
+    "Action"
+   ],
+   "mecaniques": [
+    "combat",
+    "butin",
+    "coopération",
+    "progression de personnage"
+   ],
+   "tags": [
+    "sombre",
+    "fantasy",
+    "démons"
+   ],
+   "studio": "Blizzard",
+   "editeur": "Blizzard",
+   "serie": "Diablo",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 86,
+   "annee": 2023
+  },
+  {
+   "id": "path-of-exile",
+   "titre": "Path of Exile",
+   "genres": [
+    "RPG",
+    "Action"
+   ],
+   "mecaniques": [
+    "combat",
+    "butin",
+    "progression de personnage"
+   ],
+   "tags": [
+    "sombre",
+    "fantasy",
+    "gratuit"
+   ],
+   "studio": "Grinding Gear Games",
+   "editeur": "Grinding Gear Games",
+   "serie": "Path of Exile",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 86,
+   "annee": 2013
+  },
+  {
+   "id": "genshin-impact",
+   "titre": "Genshin Impact",
+   "genres": [
+    "RPG",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "combat",
+    "exploration",
+    "collection",
+    "coopération"
+   ],
+   "tags": [
+    "fantasy",
+    "japonais",
+    "coloré",
+    "gratuit"
+   ],
+   "studio": "miHoYo",
+   "editeur": "miHoYo",
+   "serie": "Genshin Impact",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4"
+   ],
+   "note": 81,
+   "annee": 2020
+  },
+  {
+   "id": "sekiro",
+   "titre": "Sekiro: Shadows Die Twice",
+   "genres": [
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "combat",
+    "infiltration",
+    "exploration"
+   ],
+   "tags": [
+    "difficile",
+    "japonais",
+    "campagne solo"
+   ],
+   "studio": "FromSoftware",
+   "editeur": "Activision",
+   "serie": "Souls",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 90,
+   "annee": 2019
+  },
+  {
+   "id": "bloodborne",
+   "titre": "Bloodborne",
+   "genres": [
+    "Action-aventure",
+    "RPG"
+   ],
+   "mecaniques": [
+    "combat",
+    "exploration",
+    "progression de personnage"
+   ],
+   "tags": [
+    "difficile",
+    "sombre",
+    "horreur gothique"
+   ],
+   "studio": "FromSoftware",
+   "editeur": "Sony",
+   "serie": "Souls",
+   "plateformes": [
+    "PS4"
+   ],
+   "note": 92,
+   "annee": 2015
+  },
+  {
+   "id": "god-of-war-2018",
+   "titre": "God of War",
+   "genres": [
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "combat",
+    "exploration",
+    "puzzles"
+   ],
+   "tags": [
+    "mythologie",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "Santa Monica Studio",
+   "editeur": "Sony",
+   "serie": "God of War",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4"
+   ],
+   "note": 94,
+   "annee": 2018
+  },
+  {
+   "id": "god-of-war-ragnarok",
+   "titre": "God of War Ragnarök",
+   "genres": [
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "combat",
+    "exploration",
+    "puzzles"
+   ],
+   "tags": [
+    "mythologie",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "Santa Monica Studio",
+   "editeur": "Sony",
+   "serie": "God of War",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4"
+   ],
+   "note": 94,
+   "annee": 2022
+  },
+  {
+   "id": "devil-may-cry-5",
+   "titre": "Devil May Cry 5",
+   "genres": [
+    "Action"
+   ],
+   "mecaniques": [
+    "combat",
+    "combos"
+   ],
+   "tags": [
+    "démons",
+    "stylé",
+    "japonais"
+   ],
+   "studio": "Capcom",
+   "editeur": "Capcom",
+   "serie": "Devil May Cry",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 89,
+   "annee": 2019
+  },
+  {
+   "id": "bayonetta-2",
+   "titre": "Bayonetta 2",
+   "genres": [
+    "Action"
+   ],
+   "mecaniques": [
+    "combat",
+    "combos"
+   ],
+   "tags": [
+    "stylé",
+    "japonais",
+    "démons"
+   ],
+   "studio": "PlatinumGames",
+   "editeur": "Nintendo",
+   "serie": "Bayonetta",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 91,
+   "annee": 2014
+  },
+  {
+   "id": "nier-automata",
+   "titre": "NieR: Automata",
+   "genres": [
+    "Action",
+    "RPG"
+   ],
+   "mecaniques": [
+    "combat",
+    "exploration",
+    "progression de personnage"
+   ],
+   "tags": [
+    "science-fiction",
+    "narration",
+    "japonais",
+    "campagne solo"
+   ],
+   "studio": "PlatinumGames",
+   "editeur": "Square Enix",
+   "serie": "NieR",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 88,
+   "annee": 2017
+  },
+  {
+   "id": "horizon-zero-dawn",
+   "titre": "Horizon Zero Dawn",
+   "genres": [
+    "Action-aventure",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "tir",
+    "exploration",
+    "artisanat",
+    "combat"
+   ],
+   "tags": [
+    "post-apocalyptique",
+    "science-fiction",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "Guerrilla Games",
+   "editeur": "Sony",
+   "serie": "Horizon",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4"
+   ],
+   "note": 89,
+   "annee": 2017
+  },
+  {
+   "id": "ghost-of-tsushima",
+   "titre": "Ghost of Tsushima",
+   "genres": [
+    "Action-aventure",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "combat",
+    "infiltration",
+    "exploration"
+   ],
+   "tags": [
+    "histoire",
+    "japonais",
+    "campagne solo"
+   ],
+   "studio": "Sucker Punch Productions",
+   "editeur": "Sony",
+   "serie": "Ghost of Tsushima",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4"
+   ],
+   "note": 83,
+   "annee": 2020
+  },
+  {
+   "id": "spider-man-ps4",
+   "titre": "Marvel's Spider-Man",
+   "genres": [
+    "Action-aventure",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "combat",
+    "exploration",
+    "infiltration"
+   ],
+   "tags": [
+    "super-héros",
+    "campagne solo",
+    "narration"
+   ],
+   "studio": "Insomniac Games",
+   "editeur": "Sony",
+   "serie": "Spider-Man",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4"
+   ],
+   "note": 87,
+   "annee": 2018
+  },
+  {
+   "id": "batman-arkham-city",
+   "titre": "Batman: Arkham City",
+   "genres": [
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "combat",
+    "infiltration",
+    "exploration"
+   ],
+   "tags": [
+    "super-héros",
+    "sombre",
+    "campagne solo"
+   ],
+   "studio": "Rocksteady Studios",
+   "editeur": "Warner Bros. Games",
+   "serie": "Batman Arkham",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 94,
+   "annee": 2011
+  },
+  {
+   "id": "assassins-creed-odyssey",
+   "titre": "Assassin's Creed Odyssey",
+   "genres": [
+    "Action-aventure",
+    "RPG",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "combat",
+    "infiltration",
+    "exploration",
+    "progression de personnage"
+   ],
+   "tags": [
+    "histoire",
+    "mythologie",
+    "campagne solo"
+   ],
+   "studio": "Ubisoft Quebec",
+   "editeur": "Ubisoft",
+   "serie": "Assassin's Creed",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 83,
+   "annee": 2018
+  },
+  {
+   "id": "assassins-creed-valhalla",
+   "titre": "Assassin's Creed Valhalla",
+   "genres": [
+    "Action-aventure",
+    "RPG",
+    "Monde ouvert"
+   ],
+   "mecaniques": [
+    "combat",
+    "infiltration",
+    "exploration",
+    "progression de personnage"
+   ],
+   "tags": [
+    "histoire",
+    "viking",
+    "campagne solo"
+   ],
+   "studio": "Ubisoft Montréal",
+   "editeur": "Ubisoft",
+   "serie": "Assassin's Creed",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 81,
+   "annee": 2020
+  },
+  {
+   "id": "uncharted-4",
+   "titre": "Uncharted 4: A Thief's End",
+   "genres": [
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "tir",
+    "plateforme",
+    "exploration",
+    "puzzles"
+   ],
+   "tags": [
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "Naughty Dog",
+   "editeur": "Sony",
+   "serie": "Uncharted",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4"
+   ],
+   "note": 93,
+   "annee": 2016
+  },
+  {
+   "id": "tomb-raider-2013",
+   "titre": "Tomb Raider (2013)",
+   "genres": [
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "tir",
+    "plateforme",
+    "exploration",
+    "puzzles"
+   ],
+   "tags": [
+    "survie",
+    "campagne solo"
+   ],
+   "studio": "Crystal Dynamics",
+   "editeur": "Square Enix",
+   "serie": "Tomb Raider",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 86,
+   "annee": 2013
+  },
+  {
+   "id": "control",
+   "titre": "Control",
+   "genres": [
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "tir",
+    "pouvoirs",
+    "exploration"
+   ],
+   "tags": [
+    "surnaturel",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "Remedy Entertainment",
+   "editeur": "505 Games",
+   "serie": "Control",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 85,
+   "annee": 2019
+  },
+  {
+   "id": "alan-wake-2",
+   "titre": "Alan Wake 2",
+   "genres": [
+    "Horreur",
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "tir",
+    "enquête",
+    "exploration"
+   ],
+   "tags": [
+    "narration",
+    "sombre",
+    "surnaturel",
+    "campagne solo"
+   ],
+   "studio": "Remedy Entertainment",
+   "editeur": "Epic Games",
+   "serie": "Alan Wake",
+   "plateformes": [
+    "PC",
+    "PS5"
+   ],
+   "note": 89,
+   "annee": 2023
+  },
+  {
+   "id": "resident-evil-4-remake",
+   "titre": "Resident Evil 4 (2023)",
+   "genres": [
+    "Horreur",
+    "Action"
+   ],
+   "mecaniques": [
+    "tir",
+    "gestion de ressources",
+    "exploration"
+   ],
+   "tags": [
+    "horreur",
+    "campagne solo"
+   ],
+   "studio": "Capcom",
+   "editeur": "Capcom",
+   "serie": "Resident Evil",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 93,
+   "annee": 2023
+  },
+  {
+   "id": "resident-evil-2-remake",
+   "titre": "Resident Evil 2 (2019)",
+   "genres": [
+    "Horreur",
+    "Action"
+   ],
+   "mecaniques": [
+    "tir",
+    "gestion de ressources",
+    "puzzles",
+    "exploration"
+   ],
+   "tags": [
+    "horreur",
+    "zombies",
+    "campagne solo"
+   ],
+   "studio": "Capcom",
+   "editeur": "Capcom",
+   "serie": "Resident Evil",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 91,
+   "annee": 2019
+  },
+  {
+   "id": "silent-hill-2-remake",
+   "titre": "Silent Hill 2 (2024)",
+   "genres": [
+    "Horreur"
+   ],
+   "mecaniques": [
+    "exploration",
+    "puzzles",
+    "combat"
+   ],
+   "tags": [
+    "horreur",
+    "narration",
+    "sombre",
+    "campagne solo"
+   ],
+   "studio": "Bloober Team",
+   "editeur": "Konami",
+   "serie": "Silent Hill",
+   "plateformes": [
+    "PC",
+    "PS5"
+   ],
+   "note": 86,
+   "annee": 2024
+  },
+  {
+   "id": "dead-space-remake",
+   "titre": "Dead Space (2023)",
+   "genres": [
+    "Horreur",
+    "Action"
+   ],
+   "mecaniques": [
+    "tir",
+    "gestion de ressources",
+    "exploration"
+   ],
+   "tags": [
+    "horreur",
+    "science-fiction",
+    "campagne solo"
+   ],
+   "studio": "Motive Studio",
+   "editeur": "Electronic Arts",
+   "serie": "Dead Space",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 89,
+   "annee": 2023
+  },
+  {
+   "id": "outlast",
+   "titre": "Outlast",
+   "genres": [
+    "Horreur"
+   ],
+   "mecaniques": [
+    "infiltration",
+    "exploration"
+   ],
+   "tags": [
+    "horreur",
+    "indépendant",
+    "campagne solo"
+   ],
+   "studio": "Red Barrels",
+   "editeur": "Red Barrels",
+   "serie": "Outlast",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 80,
+   "annee": 2013
+  },
+  {
+   "id": "alien-isolation",
+   "titre": "Alien: Isolation",
+   "genres": [
+    "Horreur"
+   ],
+   "mecaniques": [
+    "infiltration",
+    "exploration",
+    "gestion de ressources"
+   ],
+   "tags": [
+    "horreur",
+    "science-fiction",
+    "campagne solo"
+   ],
+   "studio": "Creative Assembly",
+   "editeur": "Sega",
+   "serie": "Alien",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 81,
+   "annee": 2014
+  },
+  {
+   "id": "phasmophobia",
+   "titre": "Phasmophobia",
+   "genres": [
+    "Horreur"
+   ],
+   "mecaniques": [
+    "enquête",
+    "coopération",
+    "multijoueur"
+   ],
+   "tags": [
+    "horreur",
+    "surnaturel",
+    "indépendant"
+   ],
+   "studio": "Kinetic Games",
+   "editeur": "Kinetic Games",
+   "serie": "Phasmophobia",
+   "plateformes": [
+    "PC",
+    "PS5"
+   ],
+   "note": 85,
+   "annee": 2020
+  },
+  {
+   "id": "the-forest",
+   "titre": "The Forest",
+   "genres": [
+    "Survie",
+    "Horreur"
+   ],
+   "mecaniques": [
+    "construction",
+    "artisanat",
+    "exploration",
+    "coopération"
+   ],
+   "tags": [
+    "horreur",
+    "indépendant"
+   ],
+   "studio": "Endnight Games",
+   "editeur": "Endnight Games",
+   "serie": "The Forest",
+   "plateformes": [
+    "PC",
+    "PS4"
+   ],
+   "note": 83,
+   "annee": 2018
+  },
+  {
+   "id": "sons-of-the-forest",
+   "titre": "Sons of the Forest",
+   "genres": [
+    "Survie",
+    "Horreur"
+   ],
+   "mecaniques": [
+    "construction",
+    "artisanat",
+    "exploration",
+    "coopération"
+   ],
+   "tags": [
+    "horreur",
+    "liberté"
+   ],
+   "studio": "Endnight Games",
+   "editeur": "Newnight",
+   "serie": "Sons of the Forest",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 80,
+   "annee": 2024
+  },
+  {
+   "id": "subnautica",
+   "titre": "Subnautica",
+   "genres": [
+    "Survie",
+    "Aventure"
+   ],
+   "mecaniques": [
+    "exploration",
+    "artisanat",
+    "construction"
+   ],
+   "tags": [
+    "science-fiction",
+    "océan",
+    "narration"
+   ],
+   "studio": "Unknown Worlds",
+   "editeur": "Unknown Worlds",
+   "serie": "Subnautica",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 87,
+   "annee": 2018
+  },
+  {
+   "id": "valheim",
+   "titre": "Valheim",
+   "genres": [
+    "Survie",
+    "Bac à sable"
+   ],
+   "mecaniques": [
+    "construction",
+    "artisanat",
+    "exploration",
+    "coopération",
+    "combat"
+   ],
+   "tags": [
+    "viking",
+    "indépendant"
+   ],
+   "studio": "Iron Gate Studio",
+   "editeur": "Coffee Stain",
+   "serie": "Valheim",
+   "plateformes": [
+    "PC",
+    "Xbox"
+   ],
+   "note": 90,
+   "annee": 2021
+  },
+  {
+   "id": "rust",
+   "titre": "Rust",
+   "genres": [
+    "Survie"
+   ],
+   "mecaniques": [
+    "artisanat",
+    "construction",
+    "multijoueur",
+    "combat"
+   ],
+   "tags": [
+    "réaliste",
+    "compétitif"
+   ],
+   "studio": "Facepunch Studios",
+   "editeur": "Facepunch Studios",
+   "serie": "Rust",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 69,
+   "annee": 2018
+  },
+  {
+   "id": "ark-survival-evolved",
+   "titre": "ARK: Survival Evolved",
+   "genres": [
+    "Survie"
+   ],
+   "mecaniques": [
+    "artisanat",
+    "construction",
+    "coopération",
+    "collection"
+   ],
+   "tags": [
+    "dinosaures",
+    "liberté"
+   ],
+   "studio": "Studio Wildcard",
+   "editeur": "Studio Wildcard",
+   "serie": "ARK",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 70,
+   "annee": 2017
+  },
+  {
+   "id": "the-long-dark",
+   "titre": "The Long Dark",
+   "genres": [
+    "Survie"
+   ],
+   "mecaniques": [
+    "artisanat",
+    "exploration",
+    "gestion de ressources"
+   ],
+   "tags": [
+    "post-apocalyptique",
+    "indépendant",
+    "réaliste"
+   ],
+   "studio": "Hinterland Studio",
+   "editeur": "Hinterland Studio",
+   "serie": "The Long Dark",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 79,
+   "annee": 2017
+  },
+  {
+   "id": "dont-starve-together",
+   "titre": "Don't Starve Together",
+   "genres": [
+    "Survie"
+   ],
+   "mecaniques": [
+    "artisanat",
+    "exploration",
+    "coopération"
+   ],
+   "tags": [
+    "sombre",
+    "indépendant",
+    "humour"
+   ],
+   "studio": "Klei Entertainment",
+   "editeur": "Klei Entertainment",
+   "serie": "Don't Starve",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 80,
+   "annee": 2016
+  },
+  {
+   "id": "project-zomboid",
+   "titre": "Project Zomboid",
+   "genres": [
+    "Survie"
+   ],
+   "mecaniques": [
+    "artisanat",
+    "construction",
+    "exploration",
+    "coopération"
+   ],
+   "tags": [
+    "zombies",
+    "post-apocalyptique",
+    "indépendant"
+   ],
+   "studio": "The Indie Stone",
+   "editeur": "The Indie Stone",
+   "serie": "Project Zomboid",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 85,
+   "annee": 2013
+  },
+  {
+   "id": "dayz",
+   "titre": "DayZ",
+   "genres": [
+    "Survie"
+   ],
+   "mecaniques": [
+    "artisanat",
+    "exploration",
+    "multijoueur",
+    "combat"
+   ],
+   "tags": [
+    "zombies",
+    "post-apocalyptique",
+    "réaliste"
+   ],
+   "studio": "Bohemia Interactive",
+   "editeur": "Bohemia Interactive",
+   "serie": "DayZ",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 75,
+   "annee": 2018
+  },
+  {
+   "id": "sea-of-thieves",
+   "titre": "Sea of Thieves",
+   "genres": [
+    "Aventure",
+    "Action"
+   ],
+   "mecaniques": [
+    "exploration",
+    "coopération",
+    "combat",
+    "navigation"
+   ],
+   "tags": [
+    "pirates",
+    "coloré",
+    "multijoueur"
+   ],
+   "studio": "Rare",
+   "editeur": "Xbox Game Studios",
+   "serie": "Sea of Thieves",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 75,
+   "annee": 2018
+  },
+  {
+   "id": "no-mans-sky",
+   "titre": "No Man's Sky",
+   "genres": [
+    "Survie",
+    "Aventure"
+   ],
+   "mecaniques": [
+    "exploration",
+    "artisanat",
+    "construction",
+    "coopération"
+   ],
+   "tags": [
+    "science-fiction",
+    "liberté"
+   ],
+   "studio": "Hello Games",
+   "editeur": "Hello Games",
+   "serie": "No Man's Sky",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 71,
+   "annee": 2016
+  },
+  {
+   "id": "satisfactory",
+   "titre": "Satisfactory",
+   "genres": [
+    "Simulation",
+    "Gestion"
+   ],
+   "mecaniques": [
+    "construction",
+    "gestion de ressources",
+    "automatisation",
+    "coopération"
+   ],
+   "tags": [
+    "indépendant",
+    "science-fiction",
+    "liberté"
+   ],
+   "studio": "Coffee Stain Studios",
+   "editeur": "Coffee Stain Publishing",
+   "serie": "Satisfactory",
+   "plateformes": [
+    "PC",
+    "PS5"
+   ],
+   "note": 87,
+   "annee": 2024
+  },
+  {
+   "id": "factorio",
+   "titre": "Factorio",
+   "genres": [
+    "Gestion",
+    "Simulation"
+   ],
+   "mecaniques": [
+    "construction",
+    "gestion de ressources",
+    "automatisation",
+    "coopération"
+   ],
+   "tags": [
+    "indépendant",
+    "science-fiction"
+   ],
+   "studio": "Wube Software",
+   "editeur": "Wube Software",
+   "serie": "Factorio",
+   "plateformes": [
+    "PC",
+    "Switch"
+   ],
+   "note": 90,
+   "annee": 2020
+  },
+  {
+   "id": "cities-skylines",
+   "titre": "Cities: Skylines",
+   "genres": [
+    "Simulation",
+    "Gestion"
+   ],
+   "mecaniques": [
+    "construction",
+    "gestion de ressources"
+   ],
+   "tags": [
+    "ville",
+    "indépendant"
+   ],
+   "studio": "Colossal Order",
+   "editeur": "Paradox Interactive",
+   "serie": "Cities: Skylines",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 85,
+   "annee": 2015
+  },
+  {
+   "id": "planet-zoo",
+   "titre": "Planet Zoo",
+   "genres": [
+    "Simulation",
+    "Gestion"
+   ],
+   "mecaniques": [
+    "construction",
+    "gestion de ressources"
+   ],
+   "tags": [
+    "animaux",
+    "détente"
+   ],
+   "studio": "Frontier Developments",
+   "editeur": "Frontier Developments",
+   "serie": "Planet",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 87,
+   "annee": 2019
+  },
+  {
+   "id": "the-sims-4",
+   "titre": "Les Sims 4",
+   "genres": [
+    "Simulation"
+   ],
+   "mecaniques": [
+    "construction",
+    "progression de personnage",
+    "gestion du temps"
+   ],
+   "tags": [
+    "famille",
+    "détente",
+    "liberté"
+   ],
+   "studio": "Maxis",
+   "editeur": "Electronic Arts",
+   "serie": "Les Sims",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 70,
+   "annee": 2014
+  },
+  {
+   "id": "animal-crossing-nh",
+   "titre": "Animal Crossing: New Horizons",
+   "genres": [
+    "Simulation"
+   ],
+   "mecaniques": [
+    "construction",
+    "collection",
+    "artisanat",
+    "coopération"
+   ],
+   "tags": [
+    "détente",
+    "famille",
+    "coloré"
+   ],
+   "studio": "Nintendo EPD",
+   "editeur": "Nintendo",
+   "serie": "Animal Crossing",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 90,
+   "annee": 2020
+  },
+  {
+   "id": "euro-truck-simulator-2",
+   "titre": "Euro Truck Simulator 2",
+   "genres": [
+    "Simulation",
+    "Course"
+   ],
+   "mecaniques": [
+    "conduite",
+    "gestion de ressources"
+   ],
+   "tags": [
+    "détente",
+    "réaliste"
+   ],
+   "studio": "SCS Software",
+   "editeur": "SCS Software",
+   "serie": "Euro Truck Simulator",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 79,
+   "annee": 2012
+  },
+  {
+   "id": "microsoft-flight-simulator",
+   "titre": "Microsoft Flight Simulator",
+   "genres": [
+    "Simulation"
+   ],
+   "mecaniques": [
+    "pilotage",
+    "exploration"
+   ],
+   "tags": [
+    "réaliste",
+    "détente"
+   ],
+   "studio": "Asobo Studio",
+   "editeur": "Xbox Game Studios",
+   "serie": "Flight Simulator",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 91,
+   "annee": 2020
+  },
+  {
+   "id": "football-manager-2024",
+   "titre": "Football Manager 2024",
+   "genres": [
+    "Gestion",
+    "Sport"
+   ],
+   "mecaniques": [
+    "gestion de ressources",
+    "tactique"
+   ],
+   "tags": [
+    "football",
+    "réaliste"
+   ],
+   "studio": "Sports Interactive",
+   "editeur": "Sega",
+   "serie": "Football Manager",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 82,
+   "annee": 2023
+  },
+  {
+   "id": "total-war-warhammer-3",
+   "titre": "Total War: Warhammer III",
+   "genres": [
+    "Stratégie"
+   ],
+   "mecaniques": [
+    "temps réel",
+    "tour par tour",
+    "gestion de ressources",
+    "diplomatie"
+   ],
+   "tags": [
+    "fantasy",
+    "démons"
+   ],
+   "studio": "Creative Assembly",
+   "editeur": "Sega",
+   "serie": "Total War",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 86,
+   "annee": 2022
+  },
+  {
+   "id": "crusader-kings-3",
+   "titre": "Crusader Kings III",
+   "genres": [
+    "Stratégie",
+    "Gestion"
+   ],
+   "mecaniques": [
+    "gestion de ressources",
+    "diplomatie",
+    "choix et conséquences"
+   ],
+   "tags": [
+    "histoire",
+    "médiéval"
+   ],
+   "studio": "Paradox Development Studio",
+   "editeur": "Paradox Interactive",
+   "serie": "Crusader Kings",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 91,
+   "annee": 2020
+  },
+  {
+   "id": "stellaris",
+   "titre": "Stellaris",
+   "genres": [
+    "Stratégie"
+   ],
+   "mecaniques": [
+    "gestion de ressources",
+    "diplomatie",
+    "exploration"
+   ],
+   "tags": [
+    "science-fiction",
+    "4X"
+   ],
+   "studio": "Paradox Development Studio",
+   "editeur": "Paradox Interactive",
+   "serie": "Stellaris",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 78,
+   "annee": 2016
+  },
+  {
+   "id": "age-of-empires-2-de",
+   "titre": "Age of Empires II: Definitive Edition",
+   "genres": [
+    "Stratégie"
+   ],
+   "mecaniques": [
+    "temps réel",
+    "gestion de ressources",
+    "multijoueur"
+   ],
+   "tags": [
+    "histoire",
+    "médiéval"
+   ],
+   "studio": "Forgotten Empires",
+   "editeur": "Xbox Game Studios",
+   "serie": "Age of Empires",
+   "plateformes": [
+    "PC",
+    "Xbox"
+   ],
+   "note": 84,
+   "annee": 2019
+  },
+  {
+   "id": "command-and-conquer-remastered",
+   "titre": "Command & Conquer Remastered Collection",
+   "genres": [
+    "Stratégie"
+   ],
+   "mecaniques": [
+    "temps réel",
+    "gestion de ressources",
+    "multijoueur"
+   ],
+   "tags": [
+    "guerre",
+    "science-fiction"
+   ],
+   "studio": "Petroglyph",
+   "editeur": "Electronic Arts",
+   "serie": "Command & Conquer",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 87,
+   "annee": 2020
+  },
+  {
+   "id": "warcraft-3-reforged",
+   "titre": "Warcraft III: Reforged",
+   "genres": [
+    "Stratégie"
+   ],
+   "mecaniques": [
+    "temps réel",
+    "gestion de ressources",
+    "progression de personnage"
+   ],
+   "tags": [
+    "fantasy",
+    "esport"
+   ],
+   "studio": "Blizzard",
+   "editeur": "Blizzard",
+   "serie": "Warcraft",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 60,
+   "annee": 2020
+  },
+  {
+   "id": "into-the-breach",
+   "titre": "Into the Breach",
+   "genres": [
+    "Stratégie",
+    "Tactique"
+   ],
+   "mecaniques": [
+    "tour par tour",
+    "tactique",
+    "rejouabilité"
+   ],
+   "tags": [
+    "indépendant",
+    "mechas",
+    "science-fiction"
+   ],
+   "studio": "Subset Games",
+   "editeur": "Subset Games",
+   "serie": "Into the Breach",
+   "plateformes": [
+    "PC",
+    "Switch"
+   ],
+   "note": 90,
+   "annee": 2018
+  },
+  {
+   "id": "fire-emblem-three-houses",
+   "titre": "Fire Emblem: Three Houses",
+   "genres": [
+    "Stratégie",
+    "Tactique",
+    "RPG"
+   ],
+   "mecaniques": [
+    "tour par tour",
+    "tactique",
+    "choix et conséquences",
+    "progression de personnage"
+   ],
+   "tags": [
+    "fantasy",
+    "narration",
+    "japonais"
+   ],
+   "studio": "Intelligent Systems",
+   "editeur": "Nintendo",
+   "serie": "Fire Emblem",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 89,
+   "annee": 2019
+  },
+  {
+   "id": "slay-the-spire",
+   "titre": "Slay the Spire",
+   "genres": [
+    "Roguelike",
+    "Stratégie"
+   ],
+   "mecaniques": [
+    "cartes",
+    "tour par tour",
+    "rejouabilité"
+   ],
+   "tags": [
+    "indépendant",
+    "difficile"
+   ],
+   "studio": "Mega Crit",
+   "editeur": "Mega Crit",
+   "serie": "Slay the Spire",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 89,
+   "annee": 2019
+  },
+  {
+   "id": "vampire-survivors",
+   "titre": "Vampire Survivors",
+   "genres": [
+    "Roguelike",
+    "Action"
+   ],
+   "mecaniques": [
+    "combat",
+    "progression de personnage",
+    "rejouabilité"
+   ],
+   "tags": [
+    "indépendant",
+    "pixel art",
+    "gratuit"
+   ],
+   "studio": "poncle",
+   "editeur": "poncle",
+   "serie": "Vampire Survivors",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 86,
+   "annee": 2022
+  },
+  {
+   "id": "risk-of-rain-2",
+   "titre": "Risk of Rain 2",
+   "genres": [
+    "Roguelike",
+    "Action"
+   ],
+   "mecaniques": [
+    "tir",
+    "coopération",
+    "rejouabilité",
+    "butin"
+   ],
+   "tags": [
+    "science-fiction",
+    "indépendant"
+   ],
+   "studio": "Hopoo Games",
+   "editeur": "Gearbox Publishing",
+   "serie": "Risk of Rain",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 85,
+   "annee": 2020
+  },
+  {
+   "id": "binding-of-isaac",
+   "titre": "The Binding of Isaac: Rebirth",
+   "genres": [
+    "Roguelike",
+    "Action"
+   ],
+   "mecaniques": [
+    "tir",
+    "rejouabilité",
+    "butin"
+   ],
+   "tags": [
+    "sombre",
+    "indépendant",
+    "humour"
+   ],
+   "studio": "Nicalis",
+   "editeur": "Nicalis",
+   "serie": "The Binding of Isaac",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 85,
+   "annee": 2014
+  },
+  {
+   "id": "enter-the-gungeon",
+   "titre": "Enter the Gungeon",
+   "genres": [
+    "Roguelike",
+    "Action"
+   ],
+   "mecaniques": [
+    "tir",
+    "rejouabilité",
+    "butin"
+   ],
+   "tags": [
+    "pixel art",
+    "indépendant",
+    "humour"
+   ],
+   "studio": "Dodge Roll",
+   "editeur": "Devolver Digital",
+   "serie": "Enter the Gungeon",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 82,
+   "annee": 2016
+  },
+  {
+   "id": "balatro",
+   "titre": "Balatro",
+   "genres": [
+    "Roguelike",
+    "Puzzle"
+   ],
+   "mecaniques": [
+    "cartes",
+    "rejouabilité"
+   ],
+   "tags": [
+    "indépendant",
+    "stylé"
+   ],
+   "studio": "LocalThunk",
+   "editeur": "Playstack",
+   "serie": "Balatro",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 90,
+   "annee": 2024
+  },
+  {
+   "id": "cuphead",
+   "titre": "Cuphead",
+   "genres": [
+    "Plateforme",
+    "Action"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "tir",
+    "coopération"
+   ],
+   "tags": [
+    "difficile",
+    "indépendant",
+    "stylé"
+   ],
+   "studio": "Studio MDHR",
+   "editeur": "Studio MDHR",
+   "serie": "Cuphead",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 86,
+   "annee": 2017
+  },
+  {
+   "id": "ori-and-the-will-of-the-wisps",
+   "titre": "Ori and the Will of the Wisps",
+   "genres": [
+    "Metroidvania",
+    "Plateforme"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "exploration",
+    "combat"
+   ],
+   "tags": [
+    "narration",
+    "indépendant",
+    "coloré"
+   ],
+   "studio": "Moon Studios",
+   "editeur": "Xbox Game Studios",
+   "serie": "Ori",
+   "plateformes": [
+    "PC",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 90,
+   "annee": 2020
+  },
+  {
+   "id": "metroid-dread",
+   "titre": "Metroid Dread",
+   "genres": [
+    "Metroidvania",
+    "Action"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "exploration",
+    "tir"
+   ],
+   "tags": [
+    "science-fiction",
+    "difficile"
+   ],
+   "studio": "MercurySteam",
+   "editeur": "Nintendo",
+   "serie": "Metroid",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 88,
+   "annee": 2021
+  },
+  {
+   "id": "super-meat-boy",
+   "titre": "Super Meat Boy",
+   "genres": [
+    "Plateforme"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "mouvement rapide"
+   ],
+   "tags": [
+    "difficile",
+    "indépendant",
+    "humour"
+   ],
+   "studio": "Team Meat",
+   "editeur": "Team Meat",
+   "serie": "Super Meat Boy",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 87,
+   "annee": 2010
+  },
+  {
+   "id": "rayman-legends",
+   "titre": "Rayman Legends",
+   "genres": [
+    "Plateforme"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "coopération",
+    "rythme"
+   ],
+   "tags": [
+    "coloré",
+    "famille"
+   ],
+   "studio": "Ubisoft Montpellier",
+   "editeur": "Ubisoft",
+   "serie": "Rayman",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 91,
+   "annee": 2013
+  },
+  {
+   "id": "sonic-mania",
+   "titre": "Sonic Mania",
+   "genres": [
+    "Plateforme"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "mouvement rapide"
+   ],
+   "tags": [
+    "pixel art",
+    "famille"
+   ],
+   "studio": "Christian Whitehead",
+   "editeur": "Sega",
+   "serie": "Sonic",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 86,
+   "annee": 2017
+  },
+  {
+   "id": "kirby-forgotten-land",
+   "titre": "Kirby et le monde oublié",
+   "genres": [
+    "Plateforme",
+    "Aventure"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "combat",
+    "coopération"
+   ],
+   "tags": [
+    "famille",
+    "coloré"
+   ],
+   "studio": "HAL Laboratory",
+   "editeur": "Nintendo",
+   "serie": "Kirby",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 85,
+   "annee": 2022
+  },
+  {
+   "id": "super-mario-bros-wonder",
+   "titre": "Super Mario Bros. Wonder",
+   "genres": [
+    "Plateforme"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "coopération"
+   ],
+   "tags": [
+    "famille",
+    "coloré"
+   ],
+   "studio": "Nintendo EPD",
+   "editeur": "Nintendo",
+   "serie": "Mario",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 92,
+   "annee": 2023
+  },
+  {
+   "id": "donkey-kong-country-tropical-freeze",
+   "titre": "Donkey Kong Country: Tropical Freeze",
+   "genres": [
+    "Plateforme"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "coopération"
+   ],
+   "tags": [
+    "difficile",
+    "coloré"
+   ],
+   "studio": "Retro Studios",
+   "editeur": "Nintendo",
+   "serie": "Donkey Kong",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 85,
+   "annee": 2014
+  },
+  {
+   "id": "little-nightmares",
+   "titre": "Little Nightmares",
+   "genres": [
+    "Plateforme",
+    "Horreur"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "infiltration",
+    "puzzles"
+   ],
+   "tags": [
+    "horreur",
+    "sombre",
+    "indépendant"
+   ],
+   "studio": "Tarsier Studios",
+   "editeur": "Bandai Namco",
+   "serie": "Little Nightmares",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 78,
+   "annee": 2017
+  },
+  {
+   "id": "limbo",
+   "titre": "Limbo",
+   "genres": [
+    "Plateforme",
+    "Puzzle"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "puzzles"
+   ],
+   "tags": [
+    "sombre",
+    "indépendant"
+   ],
+   "studio": "Playdead",
+   "editeur": "Playdead",
+   "serie": "Limbo",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 88,
+   "annee": 2010
+  },
+  {
+   "id": "inside",
+   "titre": "Inside",
+   "genres": [
+    "Plateforme",
+    "Puzzle"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "puzzles",
+    "infiltration"
+   ],
+   "tags": [
+    "sombre",
+    "indépendant",
+    "narration"
+   ],
+   "studio": "Playdead",
+   "editeur": "Playdead",
+   "serie": "Inside",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 91,
+   "annee": 2016
+  },
+  {
+   "id": "portal-2",
+   "titre": "Portal 2",
+   "genres": [
+    "Puzzle"
+   ],
+   "mecaniques": [
+    "puzzles",
+    "physique",
+    "coopération"
+   ],
+   "tags": [
+    "science-fiction",
+    "humour",
+    "narration"
+   ],
+   "studio": "Valve",
+   "editeur": "Valve",
+   "serie": "Portal",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 95,
+   "annee": 2011
+  },
+  {
+   "id": "the-witness",
+   "titre": "The Witness",
+   "genres": [
+    "Puzzle"
+   ],
+   "mecaniques": [
+    "puzzles",
+    "exploration"
+   ],
+   "tags": [
+    "indépendant",
+    "détente"
+   ],
+   "studio": "Thekla",
+   "editeur": "Thekla",
+   "serie": "The Witness",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 87,
+   "annee": 2016
+  },
+  {
+   "id": "tetris-effect",
+   "titre": "Tetris Effect: Connected",
+   "genres": [
+    "Puzzle"
+   ],
+   "mecaniques": [
+    "puzzles",
+    "rythme",
+    "multijoueur"
+   ],
+   "tags": [
+    "musical",
+    "coloré"
+   ],
+   "studio": "Monstars",
+   "editeur": "Enhance",
+   "serie": "Tetris",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 88,
+   "annee": 2020
+  },
+  {
+   "id": "it-takes-two",
+   "titre": "It Takes Two",
+   "genres": [
+    "Aventure",
+    "Plateforme"
+   ],
+   "mecaniques": [
+    "coopération",
+    "plateforme",
+    "puzzles"
+   ],
+   "tags": [
+    "narration",
+    "humour",
+    "coloré"
+   ],
+   "studio": "Hazelight Studios",
+   "editeur": "Electronic Arts",
+   "serie": "Hazelight",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 88,
+   "annee": 2021
+  },
+  {
+   "id": "overcooked-2",
+   "titre": "Overcooked! 2",
+   "genres": [
+    "Party game",
+    "Simulation"
+   ],
+   "mecaniques": [
+    "coopération",
+    "gestion du temps",
+    "multijoueur"
+   ],
+   "tags": [
+    "humour",
+    "coloré",
+    "famille"
+   ],
+   "studio": "Ghost Town Games",
+   "editeur": "Team17",
+   "serie": "Overcooked",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 80,
+   "annee": 2018
+  },
+  {
+   "id": "among-us",
+   "titre": "Among Us",
+   "genres": [
+    "Party game"
+   ],
+   "mecaniques": [
+    "multijoueur",
+    "déduction",
+    "compétitif"
+   ],
+   "tags": [
+    "indépendant",
+    "science-fiction",
+    "humour"
+   ],
+   "studio": "Innersloth",
+   "editeur": "Innersloth",
+   "serie": "Among Us",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 83,
+   "annee": 2018
+  },
+  {
+   "id": "fall-guys",
+   "titre": "Fall Guys",
+   "genres": [
+    "Party game",
+    "Plateforme"
+   ],
+   "mecaniques": [
+    "plateforme",
+    "multijoueur",
+    "compétitif"
+   ],
+   "tags": [
+    "coloré",
+    "humour",
+    "gratuit"
+   ],
+   "studio": "Mediatonic",
+   "editeur": "Epic Games",
+   "serie": "Fall Guys",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 80,
+   "annee": 2020
+  },
+  {
+   "id": "super-smash-bros-ultimate",
+   "titre": "Super Smash Bros. Ultimate",
+   "genres": [
+    "Combat"
+   ],
+   "mecaniques": [
+    "combat",
+    "multijoueur",
+    "compétitif"
+   ],
+   "tags": [
+    "famille",
+    "coloré"
+   ],
+   "studio": "Bandai Namco Studios",
+   "editeur": "Nintendo",
+   "serie": "Super Smash Bros.",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 93,
+   "annee": 2018
+  },
+  {
+   "id": "street-fighter-6",
+   "titre": "Street Fighter 6",
+   "genres": [
+    "Combat"
+   ],
+   "mecaniques": [
+    "combat",
+    "combos",
+    "compétitif",
+    "multijoueur"
+   ],
+   "tags": [
+    "esport",
+    "japonais",
+    "stylé"
+   ],
+   "studio": "Capcom",
+   "editeur": "Capcom",
+   "serie": "Street Fighter",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 92,
+   "annee": 2023
+  },
+  {
+   "id": "tekken-8",
+   "titre": "Tekken 8",
+   "genres": [
+    "Combat"
+   ],
+   "mecaniques": [
+    "combat",
+    "combos",
+    "compétitif",
+    "multijoueur"
+   ],
+   "tags": [
+    "esport",
+    "japonais"
+   ],
+   "studio": "Bandai Namco Studios",
+   "editeur": "Bandai Namco",
+   "serie": "Tekken",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 90,
+   "annee": 2024
+  },
+  {
+   "id": "mortal-kombat-1",
+   "titre": "Mortal Kombat 1",
+   "genres": [
+    "Combat"
+   ],
+   "mecaniques": [
+    "combat",
+    "combos",
+    "compétitif",
+    "multijoueur"
+   ],
+   "tags": [
+    "gore",
+    "sombre"
+   ],
+   "studio": "NetherRealm Studios",
+   "editeur": "Warner Bros. Games",
+   "serie": "Mortal Kombat",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 83,
+   "annee": 2023
+  },
+  {
+   "id": "rocket-league",
+   "titre": "Rocket League",
+   "genres": [
+    "Sport",
+    "Course"
+   ],
+   "mecaniques": [
+    "conduite",
+    "multijoueur",
+    "compétitif"
+   ],
+   "tags": [
+    "esport",
+    "voitures",
+    "football"
+   ],
+   "studio": "Psyonix",
+   "editeur": "Epic Games",
+   "serie": "Rocket League",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 86,
+   "annee": 2015
+  },
+  {
+   "id": "nba-2k24",
+   "titre": "NBA 2K24",
+   "genres": [
+    "Sport"
+   ],
+   "mecaniques": [
+    "simulation sportive",
+    "multijoueur",
+    "compétitif"
+   ],
+   "tags": [
+    "basketball",
+    "réaliste"
+   ],
+   "studio": "Visual Concepts",
+   "editeur": "2K Games",
+   "serie": "NBA 2K",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 73,
+   "annee": 2023
+  },
+  {
+   "id": "mario-golf-super-rush",
+   "titre": "Mario Golf: Super Rush",
+   "genres": [
+    "Sport"
+   ],
+   "mecaniques": [
+    "simulation sportive",
+    "multijoueur"
+   ],
+   "tags": [
+    "famille",
+    "coloré"
+   ],
+   "studio": "Camelot",
+   "editeur": "Nintendo",
+   "serie": "Mario",
+   "plateformes": [
+    "Switch"
+   ],
+   "note": 69,
+   "annee": 2021
+  },
+  {
+   "id": "gran-turismo-7",
+   "titre": "Gran Turismo 7",
+   "genres": [
+    "Course"
+   ],
+   "mecaniques": [
+    "conduite",
+    "collection",
+    "simulation sportive"
+   ],
+   "tags": [
+    "voitures",
+    "réaliste"
+   ],
+   "studio": "Polyphony Digital",
+   "editeur": "Sony",
+   "serie": "Gran Turismo",
+   "plateformes": [
+    "PS5",
+    "PS4"
+   ],
+   "note": 87,
+   "annee": 2022
+  },
+  {
+   "id": "need-for-speed-heat",
+   "titre": "Need for Speed Heat",
+   "genres": [
+    "Course"
+   ],
+   "mecaniques": [
+    "conduite",
+    "multijoueur"
+   ],
+   "tags": [
+    "voitures",
+    "stylé"
+   ],
+   "studio": "Ghost Games",
+   "editeur": "Electronic Arts",
+   "serie": "Need for Speed",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 71,
+   "annee": 2019
+  },
+  {
+   "id": "dirt-rally-2",
+   "titre": "DiRT Rally 2.0",
+   "genres": [
+    "Course"
+   ],
+   "mecaniques": [
+    "conduite",
+    "simulation sportive"
+   ],
+   "tags": [
+    "voitures",
+    "réaliste",
+    "difficile"
+   ],
+   "studio": "Codemasters",
+   "editeur": "Codemasters",
+   "serie": "DiRT",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 85,
+   "annee": 2019
+  },
+  {
+   "id": "assetto-corsa",
+   "titre": "Assetto Corsa Competizione",
+   "genres": [
+    "Course"
+   ],
+   "mecaniques": [
+    "conduite",
+    "simulation sportive",
+    "compétitif"
+   ],
+   "tags": [
+    "voitures",
+    "réaliste",
+    "esport"
+   ],
+   "studio": "Kunos Simulazioni",
+   "editeur": "505 Games",
+   "serie": "Assetto Corsa",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 80,
+   "annee": 2019
+  },
+  {
+   "id": "trackmania",
+   "titre": "Trackmania",
+   "genres": [
+    "Course"
+   ],
+   "mecaniques": [
+    "conduite",
+    "mouvement rapide",
+    "compétitif"
+   ],
+   "tags": [
+    "voitures",
+    "esport",
+    "gratuit"
+   ],
+   "studio": "Nadeo",
+   "editeur": "Ubisoft",
+   "serie": "Trackmania",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 82,
+   "annee": 2020
+  },
+  {
+   "id": "hi-fi-rush",
+   "titre": "Hi-Fi Rush",
+   "genres": [
+    "Action"
+   ],
+   "mecaniques": [
+    "combat",
+    "rythme",
+    "combos"
+   ],
+   "tags": [
+    "musical",
+    "coloré",
+    "stylé"
+   ],
+   "studio": "Tango Gameworks",
+   "editeur": "Bethesda",
+   "serie": "Hi-Fi Rush",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "Xbox"
+   ],
+   "note": 87,
+   "annee": 2023
+  },
+  {
+   "id": "beat-saber",
+   "titre": "Beat Saber",
+   "genres": [
+    "Rythme"
+   ],
+   "mecaniques": [
+    "rythme",
+    "mouvement rapide"
+   ],
+   "tags": [
+    "musical",
+    "réalité virtuelle"
+   ],
+   "studio": "Beat Games",
+   "editeur": "Beat Games",
+   "serie": "Beat Saber",
+   "plateformes": [
+    "PC",
+    "PS4"
+   ],
+   "note": 85,
+   "annee": 2019
+  },
+  {
+   "id": "league-of-legends",
+   "titre": "League of Legends",
+   "genres": [
+    "MOBA"
+   ],
+   "mecaniques": [
+    "temps réel",
+    "classes",
+    "compétitif",
+    "multijoueur"
+   ],
+   "tags": [
+    "esport",
+    "fantasy",
+    "gratuit"
+   ],
+   "studio": "Riot Games",
+   "editeur": "Riot Games",
+   "serie": "League of Legends",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 78,
+   "annee": 2009
+  },
+  {
+   "id": "dota-2",
+   "titre": "Dota 2",
+   "genres": [
+    "MOBA"
+   ],
+   "mecaniques": [
+    "temps réel",
+    "classes",
+    "compétitif",
+    "multijoueur"
+   ],
+   "tags": [
+    "esport",
+    "fantasy",
+    "gratuit"
+   ],
+   "studio": "Valve",
+   "editeur": "Valve",
+   "serie": "Dota",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 90,
+   "annee": 2013
+  },
+  {
+   "id": "world-of-warcraft",
+   "titre": "World of Warcraft",
+   "genres": [
+    "RPG",
+    "MMO"
+   ],
+   "mecaniques": [
+    "combat",
+    "coopération",
+    "progression de personnage",
+    "classes"
+   ],
+   "tags": [
+    "fantasy",
+    "multijoueur"
+   ],
+   "studio": "Blizzard",
+   "editeur": "Blizzard",
+   "serie": "Warcraft",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 93,
+   "annee": 2004
+  },
+  {
+   "id": "final-fantasy-xiv",
+   "titre": "Final Fantasy XIV Online",
+   "genres": [
+    "RPG",
+    "MMO"
+   ],
+   "mecaniques": [
+    "combat",
+    "coopération",
+    "progression de personnage",
+    "classes"
+   ],
+   "tags": [
+    "fantasy",
+    "narration",
+    "japonais"
+   ],
+   "studio": "Square Enix",
+   "editeur": "Square Enix",
+   "serie": "Final Fantasy",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 83,
+   "annee": 2013
+  },
+  {
+   "id": "destiny-2",
+   "titre": "Destiny 2",
+   "genres": [
+    "FPS",
+    "MMO"
+   ],
+   "mecaniques": [
+    "tir",
+    "coopération",
+    "butin",
+    "progression de personnage"
+   ],
+   "tags": [
+    "science-fiction",
+    "multijoueur",
+    "gratuit"
+   ],
+   "studio": "Bungie",
+   "editeur": "Bungie",
+   "serie": "Destiny",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 82,
+   "annee": 2017
+  },
+  {
+   "id": "helldivers-2",
+   "titre": "Helldivers 2",
+   "genres": [
+    "Action",
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "coopération",
+    "tactique"
+   ],
+   "tags": [
+    "science-fiction",
+    "extraterrestres",
+    "humour"
+   ],
+   "studio": "Arrowhead Game Studios",
+   "editeur": "Sony",
+   "serie": "Helldivers",
+   "plateformes": [
+    "PC",
+    "PS5"
+   ],
+   "note": 82,
+   "annee": 2024
+  },
+  {
+   "id": "left-4-dead-2",
+   "titre": "Left 4 Dead 2",
+   "genres": [
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "coopération",
+    "multijoueur"
+   ],
+   "tags": [
+    "zombies",
+    "horreur"
+   ],
+   "studio": "Valve",
+   "editeur": "Valve",
+   "serie": "Left 4 Dead",
+   "plateformes": [
+    "PC"
+   ],
+   "note": 89,
+   "annee": 2009
+  },
+  {
+   "id": "payday-2",
+   "titre": "Payday 2",
+   "genres": [
+    "FPS"
+   ],
+   "mecaniques": [
+    "tir",
+    "coopération",
+    "infiltration",
+    "butin"
+   ],
+   "tags": [
+    "criminalité",
+    "multijoueur"
+   ],
+   "studio": "Overkill Software",
+   "editeur": "Starbreeze",
+   "serie": "Payday",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 79,
+   "annee": 2013
+  },
+  {
+   "id": "hitman-world-of-assassination",
+   "titre": "Hitman: World of Assassination",
+   "genres": [
+    "Action",
+    "Infiltration"
+   ],
+   "mecaniques": [
+    "infiltration",
+    "puzzles",
+    "rejouabilité"
+   ],
+   "tags": [
+    "humour",
+    "stylé",
+    "campagne solo"
+   ],
+   "studio": "IO Interactive",
+   "editeur": "IO Interactive",
+   "serie": "Hitman",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 88,
+   "annee": 2021
+  },
+  {
+   "id": "dishonored-2",
+   "titre": "Dishonored 2",
+   "genres": [
+    "Action",
+    "Infiltration"
+   ],
+   "mecaniques": [
+    "infiltration",
+    "pouvoirs",
+    "choix et conséquences"
+   ],
+   "tags": [
+    "steampunk",
+    "sombre",
+    "campagne solo"
+   ],
+   "studio": "Arkane Studios",
+   "editeur": "Bethesda",
+   "serie": "Dishonored",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 86,
+   "annee": 2016
+  },
+  {
+   "id": "metal-gear-solid-v",
+   "titre": "Metal Gear Solid V: The Phantom Pain",
+   "genres": [
+    "Action",
+    "Infiltration"
+   ],
+   "mecaniques": [
+    "infiltration",
+    "tir",
+    "gestion de ressources",
+    "exploration"
+   ],
+   "tags": [
+    "guerre",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "Kojima Productions",
+   "editeur": "Konami",
+   "serie": "Metal Gear",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 93,
+   "annee": 2015
+  },
+  {
+   "id": "death-stranding",
+   "titre": "Death Stranding",
+   "genres": [
+    "Aventure",
+    "Action"
+   ],
+   "mecaniques": [
+    "exploration",
+    "gestion de ressources",
+    "coopération"
+   ],
+   "tags": [
+    "science-fiction",
+    "narration",
+    "post-apocalyptique"
+   ],
+   "studio": "Kojima Productions",
+   "editeur": "Sony",
+   "serie": "Death Stranding",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4"
+   ],
+   "note": 82,
+   "annee": 2019
+  },
+  {
+   "id": "the-last-of-us-part-2",
+   "titre": "The Last of Us Part II",
+   "genres": [
+    "Action-aventure"
+   ],
+   "mecaniques": [
+    "tir",
+    "infiltration",
+    "artisanat"
+   ],
+   "tags": [
+    "post-apocalyptique",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "Naughty Dog",
+   "editeur": "Sony",
+   "serie": "The Last of Us",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4"
+   ],
+   "note": 93,
+   "annee": 2020
+  },
+  {
+   "id": "life-is-strange",
+   "titre": "Life is Strange",
+   "genres": [
+    "Aventure",
+    "Visual novel"
+   ],
+   "mecaniques": [
+    "choix et conséquences",
+    "dialogues",
+    "puzzles"
+   ],
+   "tags": [
+    "narration",
+    "indépendant",
+    "campagne solo"
+   ],
+   "studio": "Dontnod Entertainment",
+   "editeur": "Square Enix",
+   "serie": "Life is Strange",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 85,
+   "annee": 2015
+  },
+  {
+   "id": "what-remains-of-edith-finch",
+   "titre": "What Remains of Edith Finch",
+   "genres": [
+    "Aventure"
+   ],
+   "mecaniques": [
+    "exploration",
+    "dialogues"
+   ],
+   "tags": [
+    "narration",
+    "indépendant",
+    "détente"
+   ],
+   "studio": "Giant Sparrow",
+   "editeur": "Annapurna Interactive",
+   "serie": "What Remains of Edith Finch",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 88,
+   "annee": 2017
+  },
+  {
+   "id": "firewatch",
+   "titre": "Firewatch",
+   "genres": [
+    "Aventure"
+   ],
+   "mecaniques": [
+    "exploration",
+    "dialogues",
+    "choix et conséquences"
+   ],
+   "tags": [
+    "narration",
+    "indépendant",
+    "détente"
+   ],
+   "studio": "Campo Santo",
+   "editeur": "Panic",
+   "serie": "Firewatch",
+   "plateformes": [
+    "PC",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 81,
+   "annee": 2016
+  },
+  {
+   "id": "the-walking-dead-telltale",
+   "titre": "The Walking Dead: Saison 1",
+   "genres": [
+    "Aventure"
+   ],
+   "mecaniques": [
+    "choix et conséquences",
+    "dialogues"
+   ],
+   "tags": [
+    "zombies",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "Telltale Games",
+   "editeur": "Telltale Games",
+   "serie": "The Walking Dead",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 89,
+   "annee": 2012
+  },
+  {
+   "id": "detroit-become-human",
+   "titre": "Detroit: Become Human",
+   "genres": [
+    "Aventure"
+   ],
+   "mecaniques": [
+    "choix et conséquences",
+    "dialogues"
+   ],
+   "tags": [
+    "science-fiction",
+    "narration",
+    "campagne solo"
+   ],
+   "studio": "Quantic Dream",
+   "editeur": "Sony",
+   "serie": "Quantic Dream",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4"
+   ],
+   "note": 78,
+   "annee": 2018
+  },
+  {
+   "id": "undertale",
+   "titre": "Undertale",
+   "genres": [
+    "RPG"
+   ],
+   "mecaniques": [
+    "tour par tour",
+    "choix et conséquences",
+    "dialogues"
+   ],
+   "tags": [
+    "indépendant",
+    "pixel art",
+    "humour",
+    "narration"
+   ],
+   "studio": "Toby Fox",
+   "editeur": "Toby Fox",
+   "serie": "Undertale",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox",
+    "Switch"
+   ],
+   "note": 92,
+   "annee": 2015
+  },
+  {
+   "id": "outer-wilds",
+   "titre": "Outer Wilds",
+   "genres": [
+    "Aventure"
+   ],
+   "mecaniques": [
+    "exploration",
+    "puzzles",
+    "boucle temporelle"
+   ],
+   "tags": [
+    "science-fiction",
+    "indépendant",
+    "narration"
+   ],
+   "studio": "Mobius Digital",
+   "editeur": "Annapurna Interactive",
+   "serie": "Outer Wilds",
+   "plateformes": [
+    "PC",
+    "PS5",
+    "PS4",
+    "Xbox"
+   ],
+   "note": 85,
+   "annee": 2019
+  }
+ ]
+}
