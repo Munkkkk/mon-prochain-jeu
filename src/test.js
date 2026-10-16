@@ -1,5 +1,6 @@
 const assert = require("assert");
-const { recommander, ressemblance, GAMES } = require("./recommend.js");
+const { creerMoteur } = require("./recommend.js");
+const { recommander, ressemblance, GAMES } = creerMoteur(require("../data/jeux.json"));
 const g = id => GAMES.find(x => x.id === id);
 
 const fps = recommander([{ id: "doom-eternal", note: "adore" }]);
