@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon prochain jeu</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <main>
+    <h1>Mon prochain jeu</h1>
+    <p class="intro">Ajoutez les jeux auxquels vous avez joué, et découvrez ce qui pourrait vous plaire.</p>
+
+    <section>
+      <h2>Vos jeux</h2>
+      <form id="form">
+        <input id="titre" list="catalogue" placeholder="Titre d'un jeu…" autocomplete="off" required>
+        <datalist id="catalogue"></datalist>
+        <select id="note" aria-label="Votre avis">
+          <option value="normal">Bien</option>
+          <option value="adore">Adoré</option>
+          <option value="bof">Bof</option>
+        </select>
+        <button>Ajouter</button>
+      </form>
+      <p id="erreur" class="erreur" hidden></p>
+      <ul id="joues"></ul>
+    </section>
+
+    <section>
+      <h2>Suggestions</h2>
+      <ol id="suggestions"></ol>
+      <p id="vide" class="vide">Ajoutez au moins un jeu (autre que « Bof ») pour voir des suggestions.</p>
+    </section>
+    <p id="chargement" class="erreur" hidden>Impossible de charger le catalogue. Lancez le site via un serveur (python3 -m http.server) plutôt qu'en ouvrant le fichier directement.</p>
+    <footer>Catalogue de <span id="nb"></span> jeux.</footer>
+  </main>
+  <script src="src/recommend.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>

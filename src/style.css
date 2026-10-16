@@ -1,0 +1,18 @@
+:root { --bg: #fff; --fg: #1d1d22; --muted: #666; --card: #f3f4f8; --accent: #4f46e5; --border: #d8dae3; }
+@media (prefers-color-scheme: dark) { :root { --bg: #14141a; --fg: #ececf1; --muted: #9a9aa8; --card: #20202a; --accent: #8b85ff; --border: #34343f; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { margin: 0; } .intro, small, footer { color: var(--muted); }
+form { display: flex; gap: 8px; flex-wrap: wrap; }
+input, select, button { font: inherit; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--card); color: var(--fg); }
+input { flex: 1 1 200px; } button { cursor: pointer; background: var(--accent); color: #fff; border-color: var(--accent); }
+ul, ol { padding: 0; list-style: none; } ol { counter-reset: n; }
+#joues li { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--border); }
+#joues li span { flex: 1; } #joues button { padding: 0 8px; background: none; color: var(--muted); border: 0; font-size: 20px; }
+.note { font-size: 13px; font-style: normal; padding: 1px 8px; border-radius: 99px; background: var(--card); }
+.adore { color: #16a34a; } .bof { color: #dc2626; }
+#suggestions li { background: var(--card); border-radius: 10px; padding: 12px 14px; margin: 10px 0; display: grid; grid-template-columns: 1fr auto; column-gap: 8px; }
+#suggestions p { grid-column: 1 / -1; margin: 6px 0 0; font-size: 14px; }
+.score { font-weight: 600; color: var(--accent); }
+.erreur { color: #dc2626; } footer { margin-top: 32px; font-size: 13px; }
